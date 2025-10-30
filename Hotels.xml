@@ -2,6 +2,7 @@
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
+  <!-- Sample from spec -->
   <Hotel Rating="4.2">
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
@@ -119,6 +120,19 @@
     <Address NearestAirport="Sky Harbor">
       <Number>225</Number>
       <Street>E Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Extra 11th hotel to satisfy “Westin + 10 more” -->
+  <Hotel Rating="4.1">
+    <Name>Moxy Phoenix Tempe/ASU Area</Name>
+    <Phone>480-968-3451</Phone>
+    <Address>
+      <Number>1333</Number>
+      <Street>S Rural Rd</Street>
       <City>Tempe</City>
       <State>AZ</State>
       <Zip>85281</Zip>
