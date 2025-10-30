@@ -68,7 +68,7 @@
 </Address>
 </Hotel>
 <Hotel Rating="3.9" NearestAirport="Sky Harbor">
-<Name>Hampton Inn & Suites Tempe</Name>
+<Name>Hampton Inn &amp; Suites Tempe</Name>
 <Phone>480-410-6400</Phone>
 <Address>
 <Number>1415</Number>
@@ -112,3 +112,4 @@
 </Address>
 </Hotel>
 </Hotels>
+
