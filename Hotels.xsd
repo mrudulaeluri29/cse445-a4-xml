@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
 
-  <!-- Simple types for common validations -->
+  <!-- Simple types for validation -->
   <xs:simpleType name="StateAbbrev">
     <xs:restriction base="xs:string">
       <xs:pattern value="[A-Z]{2}"/>
