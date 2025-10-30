@@ -16,12 +16,6 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <xs:simpleType name="PhoneType">
-    <xs:restriction base="xs:string">
-      <xs:pattern value="\d{3}-\d{3}-\d{4}"/>
-    </xs:restriction>
-  </xs:simpleType>
-
   <xs:simpleType name="RatingType">
     <xs:restriction base="xs:decimal">
       <xs:minInclusive value="0"/>
@@ -36,7 +30,8 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Name" type="xs:string"/>
-              <xs:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded"/>
+              <!-- Phone as xs:string (no custom regex type) -->
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
