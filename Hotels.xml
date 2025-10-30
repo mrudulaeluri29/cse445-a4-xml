@@ -13,7 +13,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 2 -->
   <Hotel Id="H002" Rating="4.4">
     <Name>Hyatt Place Tempe/Phoenix</Name>
     <Phone>480-627-3900</Phone>
@@ -26,7 +25,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 3 -->
   <Hotel Id="H003">
     <Name>Graduate Tempe</Name>
     <Phone>480-967-9431</Phone>
@@ -39,7 +37,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 4 -->
   <Hotel Id="H004" Rating="4.1">
     <Name>Tempe Mission Palms</Name>
     <Phone>480-894-1400</Phone>
@@ -53,7 +50,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 5 -->
   <Hotel Id="H005">
     <Name>AC Hotel Phoenix Tempe/Downtown</Name>
     <Phone>480-642-6140</Phone>
@@ -66,7 +62,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 6 -->
   <Hotel Id="H006" Rating="4.0">
     <Name>Courtyard by Marriott Tempe Downtown</Name>
     <Phone>480-966-2800</Phone>
@@ -79,7 +74,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 7 -->
   <Hotel Id="H007" Rating="3.9">
     <Name>Hampton Inn &amp; Suites Tempe</Name>
     <Phone>480-410-6400</Phone>
@@ -92,7 +86,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 8 -->
   <Hotel Id="H008">
     <Name>Hilton Garden Inn Phoenix/Tempe ASU</Name>
     <Phone>480-968-2424</Phone>
@@ -105,7 +98,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 9 -->
   <Hotel Id="H009" Rating="4.3">
     <Name>Canopy by Hilton Tempe Downtown</Name>
     <Phone>480-968-8880</Phone>
@@ -118,7 +110,6 @@
     </Address>
   </Hotel>
 
-  <!-- Hotel 10 -->
   <Hotel Id="H010">
     <Name>Residence Inn Tempe Downtown/University</Name>
     <Phone>480-967-2300</Phone>
@@ -130,19 +121,4 @@
       <Zip>85281</Zip>
     </Address>
   </Hotel>
-
-  <!-- Hotel 11 -->
-  <Hotel Id="H011" Rating="4.1">
-    <Name>Embassy Suites by Hilton Phoenix Tempe</Name>
-    <Phone>480-897-7444</Phone>
-    <Phone>888-370-0980</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>4400</Number>
-      <Street>S Rural Rd</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85282</Zip>
-    </Address>
-  </Hotel>
 </Hotels>
-
